@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.4]
+
+- Root paragraph without text nodes is marked as empty
+
 ## [0.4.3]
 
 - The description field for external links is renamed to "title".
