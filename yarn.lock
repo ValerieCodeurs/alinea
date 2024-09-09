@@ -145,6 +145,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@alinea/input.color@workspace:src/field/color":
+  version: 0.0.0-use.local
+  resolution: "@alinea/input.color@workspace:src/field/color"
+  dependencies:
+    react-colorful: "npm:^5.5.1"
+  languageName: unknown
+  linkType: soft
+
 "@alinea/iso@npm:*":
   version: 0.1.21
   resolution: "@alinea/iso@npm:0.1.21"
@@ -10483,6 +10491,16 @@ __metadata:
   bin:
     rc: ./cli.js
   checksum: 10/5c4d72ae7eec44357171585938c85ce066da8ca79146b5635baf3d55d74584c92575fa4e2c9eac03efbed3b46a0b2e7c30634c012b4b4fa40d654353d3c163eb
+  languageName: node
+  linkType: hard
+
+"react-colorful@npm:^5.5.1":
+  version: 5.6.1
+  resolution: "react-colorful@npm:5.6.1"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10/3e02ba013454818d0c323949bd961fb2c19ac18130dfc67a4032aa5b03787c5ffe7ff159c4b97dc3475072d576828ca0c4b8e8ce85b55eaf484180596cdf0403
   languageName: node
   linkType: hard
 

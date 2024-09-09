@@ -50,7 +50,8 @@
     "src/dashboard",
     "src/ui",
     "src/auth/passwordless",
-    "src/field/richtext"
+    "src/field/richtext",
+    "src/field/color"
   ],
   "dependencies": {
     "@alinea/iso": "^0.3.2",
@@ -138,6 +139,11 @@
       "worker": "./dist/field/code/CodeField.js",
       "browser": "./dist/field/code/CodeField.browser.js",
       "default": "./dist/field/code/CodeField.js"
+    },
+    "./field/color/ColorField": {
+      "worker": "./dist/field/color/ColorField.js",
+      "browser": "./dist/field/color/ColorField.browser.js",
+      "default": "./dist/field/color/ColorField.js"
     },
     "./field/date/DateField": {
       "worker": "./dist/field/date/DateField.js",

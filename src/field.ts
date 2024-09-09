@@ -1,5 +1,6 @@
 export {check} from 'alinea/field/check'
 export {code} from 'alinea/field/code'
+export {color} from 'alinea/field/color'
 export {date} from 'alinea/field/date'
 export {json} from 'alinea/field/json'
 export {entry} from 'alinea/field/link/EntryLink'

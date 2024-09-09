@@ -14,7 +14,7 @@ export function Avatar({user}: AvatarProps) {
       style={{
         borderRadius: '100%',
         background: background,
-        color: color,
+        color: color ?? undefined,
         width: px(24),
         height: px(24),
         display: 'flex',

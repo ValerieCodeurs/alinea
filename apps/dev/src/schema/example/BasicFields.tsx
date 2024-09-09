@@ -25,6 +25,9 @@ export const BasicFields = Config.document('Basic fields', {
     }),
     check: Field.check('Check field', {description: 'Check me please'}),
     date: Field.date('Date field'),
-    code: Field.code('Code field')
+    code: Field.code('Code field'),
+    color: Field.color('Color field', {
+      allowedColors: ['#ff0000', '#00ff00', '#0000ff']
+    })
   }
 })
